@@ -1,0 +1,117 @@
+header{
+	background-color: white;
+}
+body
+{
+	background-color: black;
+}
+h1{
+	font-family: 'Lora', serif;
+	color: 363636;
+	font-size: 30px;
+}
+h1::first-letter{
+	font-size: 37.5px
+}
+.smmenu
+{
+	background-color: #82B300;
+	list-style: none;
+	color: black;
+	text-align: right;
+}
+.smmenu li
+{
+	display: inline;
+	font-size: 15px;
+	text-decoration: none;
+	}
+.smmenu a:hover
+{
+	color: blue;
+	background-color: red;
+}
+.smenu a:visited
+{
+	color: darkblue;
+}
+.topmenu
+{
+	color: #AAB674;
+	list-style: none;
+	text-align: right;
+	margin: 0 1em 0 0;
+	padding: 0 5em 0 0;
+}
+.topmenu li
+{
+	display: inline;
+	font-size: 15px;
+	text-decoration: none;
+	margin: 5px 0 0 0;
+	padding: 5px 0 0 0;
+
+}
+.topmenu a:hover
+{
+	color: #AAB674;
+}
+.topmenu a:hover
+{
+	color: blue;
+}
+
+.mainmenu
+{
+	color: white;
+	font-style: none;
+	list-style: none;
+	background-color: #82B300;
+	padding: 1.5em;
+}
+.mainmenu li
+{	
+	display: inline;
+	font-size: 0.8em;
+	padding: 1em;
+}
+.mainmenu li input
+{
+	padding-left: 10px;
+	float: right;
+}
+.mainmenu a:hover
+{
+	color: black;
+}
+.foto
+{
+	background-color: #F2F2F2;
+}
+.mesi
+{
+	background-color: black;
+}
+.topmesi
+{
+	padding: 2em;
+	background-color: white;
+	border-bottom: 2px solid;
+}
+.botmesi
+{
+	padding: 2em;
+	background-color: white;
+	
+}
+.kontaktet
+{
+	background-color: #3B3B3B;
+	width: 100%
+
+}
+.footer
+{
+	background-color: #2E2E2E;
+	padding: 0.6em;
+}
