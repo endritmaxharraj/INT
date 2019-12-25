@@ -1,0 +1,91 @@
+header{
+	background-color: white;
+}
+body
+{
+	background-color: black;
+}
+h1{
+	font-family: 'Lora', serif;
+	color: 363636;
+	font-size: 30px;
+}
+h1::first-letter{
+	font-size: 37.5px
+}
+.smmenu
+{
+	background-color: #82B300;
+	list-style: none;
+	color: black;
+	text-align: right;
+}
+.smmenu li
+{
+	display: inline;
+	font-size: 15px;
+	text-decoration: none;
+	}
+.smmenu a:hover
+{
+	color: blue;
+	background-color: red;
+}
+.smenu a:visited
+{
+	color: darkblue;
+}
+.topmenu 
+{ 
+	color: green;
+	list-style: none;
+	text-align: right;
+	margin: 0 1em 0 0;
+	padding: 0 5em 0 0;
+}
+.topmenu li
+{
+	display: inline;
+	font-size: 15px;
+	text-decoration: none;
+	margin: 5px 0 0 0;
+	padding: 5px 0 0 0;
+
+}
+.topmenu a
+{
+	color: green;
+	text-decoration: none;
+	margin-top: 3em;
+}
+
+.mainmenu
+{
+	color: white;
+	font-style: none;
+	list-style: none;
+	background-color: #82B300;
+	padding: 1.5em;
+}
+.mainmenu li
+{	
+	display: inline;
+	font-size: 0.8em;
+	padding: 1em;
+	font-style: none;
+}
+.mainmenu li input
+{
+	padding-left: 10px;
+	float: right;
+	text-align: left;
+}
+.mainmenu a
+{
+	color: white;
+	text-decoration: none;
+}
+.mainmenu a:hover
+{
+	color: black;
+}
