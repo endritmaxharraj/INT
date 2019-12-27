@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/header.css">
+	<script src="https://kit.fontawesome.com/a32d392887.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,19 +13,19 @@
 			<section>
 				<nav>
 				<!--Menuja e pergjithshme -->
-					<ul class="smmenu">
-						<li><a href="/">Linkedin</a></li>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">Pinterest</a></li>
-						<li><a href="#">Google+</a></li>
-						<li><a href="#">RSS</a></li>
+				<ul class="smmenu">
+						<li><i class="fab fa-linkedin-in"></i></li>
+						<li><i class="fab fa-twitter"></i></li>
+						<li><i class="fab fa-pinterest"></i></li>
+						<li><i class="fab fa-google"></i></li>
+						<li><i class="fas fa-rss-square"></i></li>
 					</ul>
 				</nav>
 			</section>
 			<section>
-				<nav>
-				<h1>CONCOMITANT</h1>
-				<p>Free PSD Website Template</p>
+				
+			<nav>
+				<h1 id="logo">CONCOMITANT</h1>
 					<div class="topmenu">
 					<ul>
 						<li><a href="#">Sign Up |</a></li>
@@ -34,6 +35,8 @@
 					</ul>
 				</div>
 				</nav>
+
+
 			</section>
 				<section>
 				<nav>
@@ -52,59 +55,106 @@
 
 		
 <div class="mainContent">
+
+
 		<section class="foto">
-		<img src="images/windmill.jpg" width="880px" height="360px" class="fotoja">
+			
+			<div id="slideShow">
+				<div class="slideshow-container">
+
+						<div class="mySlides fade">
+
+						  <img src="foto/windmill.jpg" >
+						</div>
+						
+						<div class="mySlides fade">
+						  <img src="foto/31189.jpg">
+						</div>
+						
+						<div class="mySlides fade">
+						  <img src="foto/376855.jpg">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="foto/41302.jpg">
+						  </div>
+
+						<div class="mySlides fade">
+							<img src="foto/7285.jpg">
+					  </div>
+					
+							<div class="slidePosition">
+								<a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-circle-left"></i></a>
+								<a	onclick="sliderNr(1)"class="slideNr"><i class="fas fa-circle"></i></a>
+								<a	onclick="sliderNr(2)"class="slideNr"><i class="fas fa-circle"></i></a>
+								<a	onclick="sliderNr(3)"class="slideNr"><i class="fas fa-circle"></i></a>
+								<a	onclick="sliderNr(4)"class="slideNr"><i class="fas fa-circle"></i></a>
+								<a	onclick="sliderNr(5)"class="slideNr"><i class="fas fa-circle"></i></a>
+								<a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-circle-right"></i></a>
+							</div>
+						</div>
+						<br>
+		</div>
+
+		
 		</section>
+
+
+
+
+
+
 		<section class="mesi">
 		<table class="topmesi">
 			<tr>
 				<td>
 					<legend>Vivamuslibero Augue</legend>
-					<img src="foto/images/social.png">
+					<img src="foto/social.png">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</td>
 				<td>
 					<legend>Vivamuslibero Augue</legend>
-					<img src="images/world.png">
+					<img src="foto/world.png">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</td>
 				<td>
 					<legend>Vivamuslibero Augue</legend>
-					<img src="images/rotate.png">
+					<img src="foto/leaf.png">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</td>
 				<td>
 					<legend>Vivamuslibero Augue</legend>
-					<img src="images/leaf.png">
+					<img src="foto/leaf.png">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</td>
 				
 			</tr>
 		</table>
 		</section>
+		<hr style="margin: 0" />
 		<section>
 		<table class="botmesi">
 			<tr>
 				<td>
-					<img src="images/wind.jpg" width="200px" height="130px">
+					<img src="foto/wind.jpg" width="200px" height="130px">
 					<legend>Project Title</legend>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<a href="#">View Details >></a>
 				</td>
 				<td>
-					<img src="images/plane.png" width="200px" height="130px">
+					<img src="foto/plane.png" width="200px" height="130px">
 					<legend>Project Title</legend>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<a href="#">View Details >> lore</a>
 				</td>
 				<td>
-					<img src="images/watches.jpg" width="200px" height="130px">
+					<img src="foto/watches.jpg" width="200px" height="130px">
 					<legend>Project Title</legend>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<a href="#">View Details >></a>
 				</td>
 				<td>
-					<img src="images/bread.jpg" width="200px" height="130px">
+					<img src="foto/bread.jpg" width="200px" height="130px">
 					<legend>Project Title</legend>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<a href="#">View Details >></a>
@@ -127,13 +177,13 @@
 					<p>Email:contact@mydomain.com</p></td>
 			<td>
 				<legend>QUICK LINKS</legend>
-				<p>Link Text Here</p>
+				<p style="text-decoration: underline">Link Text Here</p style="text-decoration: underline">
 				
-				<p>Link Text Here</p>
+				<p style="text-decoration: underline">Link Text Here</p>
 				
-				<p>Link Text Here</p>
+				<p style="text-decoration: underline">Link Text Here</p>
 				
-				<p>Link Text Here</p>
+				<p style="text-decoration: underline">Link Text Here</p>
 				
 			</td>
 			<td>
@@ -155,6 +205,47 @@
 <footer class="footer">
 <p>Copyright &copy 2013 - All Right Reserved - Domain Name</p>
 </footer>
+
+
+
+
+
+	<script>
+//X = 1		
+		var x = 1;
+//Fillo sliderin nga pozita 1 x=1
+            showSlides(x);
+//Kur klikohet butoni next at`her rrite x per 1 dhe shfaq faqen x+1 = 2 ose 3 ...
+            function plusSlides(n) {
+            showSlides(x += n);
+            }
+
+//Curret Slide tregon se ne qfar numri eshte sllajdi aktual p.sh 3
+            function currentSlide(n) {
+            showSlides(x = n);
+            }
+//Kur te klikohet pika shfaq ate foto p.sh pika 4 vendos foton 4 ne slider
+			function sliderNr(i) {
+				showSlides(x = i);
+			}
+
+//Funksoni showSlides
+            function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {x = 1}    
+            if (n < 1) {x = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[x-1].style.display = "block";  
+            dots[x-1].className += " active";
+            }
+	</script>
 </body>
 </html>
 
