@@ -1,7 +1,61 @@
-.teamContent img {
+.teamContent {
+    background-color: wheat;
+    height: 400px;
+}
+
+.developer {
+    display: inline-block;
+    padding: 10px 40px;
+}
+.dev1 {
+    margin-left: 50px;
+}
+.dev2 {
+    float: right;
+    margin-right: 230px;
+}
+.developer h2 {
+    margin-left: 90px;
+   -webkit-transition: color 2s;
+   transition: color 2s;
+}
+.developer h2:hover {
+    color:red;
+}
+.developer h3 {
+    margin-left: 130px;
+}
+.developer img {
+   margin-left: 130px;
    
+ }
+
+
+ .dev1 p {
+    position: absolute;
+    top: 550px;
+    left: 105px;
+    transition: transform .5s;
 }
 
-.teamContent p {
-
+.teamContent p:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
+
+
+
+
+
+.dev2 p {
+    position: absolute;
+    top: 550px;
+    left: 855px;
+    transition: transform .8s;
+}
+  .dev2 p:hover {
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari 3-8 */
+    transform: rotate(10deg);
+  }
