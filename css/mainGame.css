@@ -1,0 +1,86 @@
+body
+{
+  background-image: url("../foto/carbonfiber.jpg");
+}
+.smmenu
+{
+  background-color: grey;
+}
+.mainmenu 
+{
+  background-color: red;
+  border: 1px black solid;
+}
+.mainContent {
+    max-width: 100%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  .row {
+    margin: 20px 0px;
+  }
+  
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    background-color: rgba(255,255,255,0.3);
+    padding: 5px;
+    margin-left: 15;
+  }
+  .content:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-color: rgba(255,255,255,0.6);
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .releasedate
+  {
+    color: black;
+    font-size: 20px;
+    font-family: Arial Black;
+  }
+  .headerGames
+  {
+    background-color: rgba(0 0 0 180);
+  }
+  button.butonirm
+  {
+    font-width: bold;
+  }
