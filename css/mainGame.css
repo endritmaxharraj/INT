@@ -1,19 +1,25 @@
 body
 {
-  background-image: url("../foto/carbonfiber.jpg");
+  background-image: url("../foto/redcarbon.jpg");
+}
+.topmenu a
+{
+	color: red;
+	font-style: bold;
 }
 .smmenu
 {
-  background-color: grey;
+  background:url("../foto/redcarbon.jpg");
 }
 .mainmenu 
 {
-  background-color: red;
+  background:url("../foto/redcarbon.jpg");
   border: 1px black solid;
 }
 .mainContent {
     max-width: 100%;
-    background-color: white;
+    background-image: url("../foto/carbonfiber.jpg");
+    background-repeat: repeat;
     margin: auto;
     text-align: center;
   }
@@ -79,7 +85,14 @@ body
   {
     background-color: rgba(0 0 0 180);
   }
-  button.butonirm
+  .gametitull
   {
-    font-width: bold;
+  	text-align: center;
+  	color: white;
+  	font-size: 40px;
+  	text-shadow: 50px white solid;
+  }
+  .maingameContent p
+  {
+  	color: white;
   }
