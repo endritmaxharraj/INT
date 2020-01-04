@@ -53,7 +53,6 @@ body
   .content:hover {
     border: 1px solid black;
     cursor: pointer;
-    box-shadow: 10px 10px 5px #aaaaaa;
     background-color: rgba(255,255,255,0.6);
   }
   
