@@ -6,7 +6,7 @@
 <style>
 	body
 	{
-		background-color: green;
+		background-image: url(../foto/signup.jpg);
 		{font-family: Arial, Helvetica, sans-serif;}
 		* {box-sizing: border-box}
 	}
@@ -18,7 +18,8 @@
 		text-align: center;
 		background-color: rgba(0,0,0,0.3);
 		border-radius: 20px;
-		padding: 1.3em;
+		width: 400px;
+		height: 680px;
 
 	}
 	div input
@@ -26,25 +27,40 @@
 		border-radius: 5px;
 		padding: 0.5em;
 	}
-	div input#reset
+	button#reset
 	{
 		background-color: red;
-		padding: 0.8em;
 		color: white;
+		width: 100px;
+		height: 50px;
+		border: none;
+		margin-top: 20px;
+	}
+	div input#reset:hover
+	{
+		background-color: darkred;
+		transition: 0.6s;
 	}
 	.regjistro
 	{
 		background-color: green;
 		color:white;
-		padding: 1em 2em 1em 2em
+		border:none;
+		width: 100px;
+		height: 50px;
+	}
+	.regjistro:hover
+	{
+		background-color: darkgreen;
+		transition: 0.5s;
 	}
 </style>
 <body>
 	<section>
-	<a href="../index.html" style="text-decoration: none; color: orange;"><p><b>&#171; Kthehu ne faqen kryesore</b></p></a>
+	<a href="../index.html" style="text-decoration: none; color: orange;"><p style="border: 2px solid red; display: inline-block;"><b>&#171; Kthehu ne faqen kryesore</b></p></a>
 </section>
 		<div id="form">
-		<h2>R E G J I S T R O H U N I</h2>
+		<h2 style="color: darkblue">R E G J I S T R O H U N I</h2>
 		<form>
 			<fieldset>
 	<label><strong>Emri: </strong></label><br>
@@ -64,8 +80,8 @@
 	<input type="radio" name="gjinia" value="Femer">F<br>
 </fieldset>
 	<button onclick="myRegjistro()" class="regjistro">Regjistrohu</button>
-	<input onclick="myReset()" id="reset" type="reset" name="reset" value="Fshij">
-	<p style="font-family: Times New Roman; color: black;">Keni llogari? Atehere <a href="login.html" style="text-decoration: none; color: red;">Kyquni/Log IN</a></p>
+	<button onclick="myReset()" id="reset" type="reset" name="reset" >Fshij</button>
+	<p style="font-family: Times New Roman; color: white;">Keni llogari? Atehere <a href="login.html" style="text-decoration: none; color: darkblue;"><b>Kyquni/Log IN</b></a></p>
 </form>
 </div>
 <script>
