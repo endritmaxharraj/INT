@@ -25,6 +25,44 @@
                 <input type="submit" name="" class="form-control submit" value="SEND MESSAGE">
             </form>
         </div>
+    </footer>
+
+    <p>
+        <iframe src="https://www.google.com/maps/embed?
+        pb=!1m18!1m12!1m3!1d2933.9284536987448!2d21.154876214971107!
+        3d42.662871523917914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!
+        1m2!1s0x13549ee398234689%3A0x1ecdd21bb52cbd0f!2sFadil%20Vokrri%20Stadium!
+        5e0!3m2!1sen!2s!4v1578247141341!5m2!1sen!2s"
+         width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </p>
+   
+
+
+
+
+
+    <p style="color: white;">Click the button to get your coordinates.</p>
+
+    <button onclick="getLocation()">KLIKO</button>
+    
+    <p id="demo"></p>
+    
+    <script>
+    var x = document.getElementById("demo");
+    
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+      }
+    }
+    
+    function showPosition(position) {
+      x.innerHTML = "Latitude: " + position.coords.latitude + 
+      "<br>Longitude: " + position.coords.longitude;
+    }
+    </script>
     </body>
    
 </html>
