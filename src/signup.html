@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<style>
+	body
+	{
+		background-color: green;
+		{font-family: Arial, Helvetica, sans-serif;}
+		* {box-sizing: border-box}
+	}
+
+	div#form
+	{
+		margin: 5em 0em 0em 30em;
+		display: inline-block;
+		text-align: center;
+		background-color: rgba(0,0,0,0.3);
+		border-radius: 20px;
+		padding: 1.3em;
+
+	}
+	div input
+	{
+		border-radius: 5px;
+		padding: 0.5em;
+	}
+	div input#reset
+	{
+		background-color: red;
+		padding: 0.8em;
+		color: white;
+	}
+	.regjistro
+	{
+		background-color: green;
+		color:white;
+		padding: 1em 2em 1em 2em
+	}
+</style>
+<body>
+	<section>
+	<a href="index.html" style="text-decoration: none; color: orange;"><p><b>&#171; Kthehu ne faqen kryesore</b></p></a>
+</section>
+		<div id="form">
+		<h2>R E G J I S T R O H U N I</h2>
+		<form>
+			<fieldset>
+	<label><strong>Emri: </strong></label><br>
+	<input type="name" name="Emri" placeholder="Shenoni emrin..." required=""><br>
+	<br><label><strong>Mbiemri: </strong></label><br>
+	<input type="surname" name="Mbiemri" placeholder="Shenoni mbiemrin..." required=""><br>
+	<br><label><strong>Username: </strong></label><br>
+	<input type="Username" name="Username" placeholder="Shenoni username..." required=""><br>
+	<br><label><strong>E-mail: </strong></label><br>
+	<input type="email" name="E-mail" placeholder="Shenoni email-in..." required=""><br>
+	<br><label><strong>Password: </strong></label><br>
+	<input type="password" onclick="myPassword()" name="Password" id="password" placeholder="Shenoni password-in..." required=""><br>
+	<br><label><strong>Data e lindjes: </strong></label><br>
+	<input type="date" name="Data e lindjes"><br><br>
+	<br><label><strong>Gjinia: </strong></label><br>
+	<input type="radio" name="gjinia" value="Mashkull">M
+	<input type="radio" name="gjinia" value="Femer">F<br>
+</fieldset>
+	<button onclick="myRegjistro()" class="regjistro">Regjistrohu</button>
+	<input onclick="myReset()" id="reset" type="reset" name="reset" value="Fshij">
+	<p style="font-family: Times New Roman; color: black;">Keni llogari? Atehere <a href="#" style="text-decoration: none; color: red;">Kyquni/Log IN</a></p>
+</form>
+</div>
+<script>
+	function myPassword() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
+	function myRegjistro() {
+	alert("Falemnderit qe u regjistruat ne faqen tone <3");
+}
+	function myReset()
+	{
+	 	alert("Te dhenat jane fshire!");
+	}
+</script>
+
+</body>
+</html>
